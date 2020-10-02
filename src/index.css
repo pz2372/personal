@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.load {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 100%;
+  background: black;
+  transition: opacity 0.5s ease;
+  position: fixed;
+  z-index: 10;
+}
+
+.load-finish {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#term {
+  font-family: monospace;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 2em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#term:after {
+  content: "_";
+  opacity: 1;
+  animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: rgb(26, 26, 26);        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(65, 65, 65);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(26, 26, 26);  /* creates padding around scroll thumb */
+}
+body {
+  scrollbar-width: thin;          /* "auto" or "thin"  */
+  scrollbar-color: rgb(65, 65, 65) rgb(26, 26, 26);   /* scroll thumb & track */
+}
