@@ -5,9 +5,9 @@ import ellerbe from '../icons/ellerbe.png'
 import info from '../icons/info.png'
 import about from '../icons/about.png'
 import education from '../icons/education.png'
-import lambda from '../icons/lambda.png'
-import bull from '../icons/bull.png'
 import packages from '../icons/package.png'
+import senior from '../icons/senior-life.png'
+import jp from '../icons/jp.png'
 
 export default class Navbar extends Component {
     state = {
@@ -29,28 +29,19 @@ export default class Navbar extends Component {
             icon: ellerbe,
             class: "experience"
         }, {
-            name: 'The Bullish Channel',
-            url: "/thebullishchannel",
-            icon: bull,
+            name: 'Senior Life Insurance Company',
+            url: "/seniorlifeinsurance",
+            icon: senior,
             class: "experience"
         }, {
-            name: 'unclambdas.com',
-            url: "/unclambdas",
-            icon: lambda,
-            class: "experience"
-        }, {
-            name: 'UNC Lambda Phi Epsilon',
-            url: "/lambdaphiepsilon",
-            icon: lambda,
+            name: 'J&P Holding Group',
+            url: "/jpholding",
+            icon: jp,
             class: "experience"
         }, {
             name: 'Contact',
             url: "/contact",
             icon: about
-        }, {
-            name: 'Resume',
-            url: "/about",
-            icon: info
         }, {
             name: 'package.json',
             url: "",

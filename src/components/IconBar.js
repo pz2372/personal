@@ -11,7 +11,6 @@ export default class IconBar extends Component {
             <div class="icon-bar">
                 <a href="https://www.linkedin.com/in/peter-zheng-647523155/"><img src={linkedIn} class="icon"/></a>
                 <a href="https://github.com/pz2372"><img src={github} class="icon"/></a>
-                <a href="https://www.instagram.com/peterz96/"><img src={insta} class="icon"/></a>
             </div>
         )
     }

@@ -8,13 +8,15 @@ const contact =
     
         <h2>Let's Talk</h2>
         <p>
-            Don't be shy. Whether you would like to talk about an opportunity or just want to chat, 
+            I'd love to hear from you. Whether you would like to talk about an opportunity or just want to chat, 
             my inbox is always open!
         </p>
-        <a href="pz2372@live.unc.edu"><button>Say Hello</button></a>
+        <a href="peterz9090@gmail.com"><button>Say Hello</button></a>
         
     </body>
-</html>`;
+</html>
+
+`;
 
 
 export default class Contact extends Component {

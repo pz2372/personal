@@ -7,26 +7,26 @@ const about =
     <body>
 
         <h1>Hello, my name is <b>Peter Zheng.</b></h1>
-        <h2>Meaning of life is what you make of it.</h2>
+        <h2>Meaning of life is what you make of it</h2>
         <p>
-            I am an aspiring software engineer from Charlotte, North Carolina.
-            I spend most of my time building websites, developing applications,
-            and studying financial instruments. 
+            Full Stack Engineer with analytical and driven mindset seeking innovative projects 
+            and engaging environment. Expertise in React and Node.js with four years of experience 
+            in building scalable web applications. Demonstrated proficiency in team leadership and 
+            streamlining development processes to establish effective project delivery.
         </p>
 
         <script>
             class Peter {
                 constructor(origin, education, email, interests, topFoods) {
-                    this.origin = "Kings Mountain, NC";
+                    this.origin = "Charlotte, NC";
                     this.education = "University of North Carolina at Chapel Hill";
-                    this.email = "pz2372@live.unc.edu";
     
-                    this.interests = ["stocks", "reading", "traveling", "food", "movies"];
+                    this.interests = ["gym", "reading", "traveling", "food", "movies"];
                     this.topFoods = ["tacos", "sushi", "ramen"];
                 }
     
                 getProgrammingLanguages() {
-                    return this.languages = ["JavaScript, Java, Python, HTML, CSS, C, Swift];
+                    return this.languages = ["JavaScript, TypeScript, Python, HTML, CSS, SQL];
                 }
 
                 getFavoriteQuote() {
@@ -40,7 +40,9 @@ const about =
         </script>
 
     </body>
-</html>`;
+</html>
+
+`;
 
 export default class About extends Component {
 

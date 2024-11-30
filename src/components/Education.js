@@ -8,7 +8,8 @@ const education =
 
         <h2>Education</h2>
         <p>University of North Carolina at Chapel Hill</p><small>2015-2020</small>
-        <p>Computer Science Bachelor of Arts</p>
+        <p>Bachelor's degree</p>
+        <p>Computer Science</p>
 
         <p>Relevant Coursework:</p>
         <ul>
@@ -23,8 +24,13 @@ const education =
             <li>Calculus I, II, III</li>
         </ul>
         
+        <p>Stanford Online<p>
+        <p>Supervised Machine Learning Certificate</p>
+        <p>AI Advanced Learning Algorithms Certificate</p>
     </body>
-</html> `;
+</html>
+
+`;
 
 export default class Education extends Component {
     render() {
